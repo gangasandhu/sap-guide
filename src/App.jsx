@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div>SAP Guide</div>
+      <div className='text-3xl font-bold'>SAP Guide</div>
     </>
   )
 }
