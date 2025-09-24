@@ -1,0 +1,40 @@
+{
+  "receiving": [
+    {
+      "id": "dsd",
+      "title": "DSD Receiving (Direct Store Delivery)",
+      "notes": "Menu: 4 › Goods Receipt › 1. DSD Receipt (with Reference). Keep invoices tidy. If asked, print/sign POD for the vendor.",
+      "steps": [
+        "Log into the Zebra device.",
+        "Select: 4. Goods Receipt › 1. DSD Receipt (with Reference).",
+        "Enter invoice details exactly as on the vendor invoice (invoice/PO #, vendor, date).",
+        "Press Enter to view the product list (orange screen).",
+        "Verify article codes, quantities, and expiries; adjust if needed.",
+        "Press F12 until the system confirms “Document is posted.”",
+        "If prompted, print and sign the Proof of Delivery (POD) and provide it to the vendor."
+      ],
+      "example": "Use this for vendors like Coke/Pepsi, etc. Keep the signed invoice in the DSD Friday folder."
+    },
+    {
+      "id": "dc",
+      "title": "DC Receiving (Loblaw Trucks)",
+      "notes": "Menu: 4 › Goods Receipt › 3. DC Receiving. Best practice: always verify pallet counts against the Stop Manifest; investigate yellow-list items.",
+      "steps": [
+        "Log into the Zebra device.",
+        "Select: 4. Goods Receipt › 3. DC Receiving.",
+        "Scan the barcode label on each pallet.",
+        "After scanning all pallets, press F12 to check for unprocessed items.",
+        "Yellow list = pending/missing items; Grey = received. Investigate any yellow items (e.g., missing pallet).",
+        "Verify total pallet count against the Stop Manifest.",
+        "Escalate to the store manager/supervisor if discrepancies remain."
+      ],
+      "example": "Scenario: A Loblaw truck delivers 5 pallets with barcodes—scan all 5, press F12, confirm everything greys out."
+    },
+    {
+      "id": "pod",
+      "title": "Proof of Delivery (POD)",
+      "notes": "How to get POD for any received document.",
+      "steps": []
+    }
+  ]
+}
