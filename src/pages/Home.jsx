@@ -39,10 +39,10 @@ export default function Home() {
           {/* CTA row */}
           <div className="mt-6 flex items-center justify-center gap-3">
             <Link
-              to="/receiving"
+              to="/tasks"
               className="inline-flex items-center gap-2 rounded-xl bg-blue-500 px-4 py-2.5 text-white font-medium shadow hover:shadow-lg transition"
             >
-            Receiving Docs<Arrow />
+            Task Manager<Arrow />
             </Link>
             <Link
               to="https://sapbarcodegen.netlify.app"

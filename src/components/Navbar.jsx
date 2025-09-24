@@ -11,6 +11,7 @@ export default function Navbar() {
     { to: "/orders", label: "Orders" },
     { to: "/errors", label: "Errors" },
     { to: "/barcodes", label: "Barcodes" },
+    { to: "/tasks", label: "Tasks"}
   ];
 
   return (

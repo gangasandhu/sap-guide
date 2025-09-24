@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "title": "Clear Receiving Area (sort pallets by category)",
+      "description": "Stage Produce, Grocery, Frozen, Dairy, and vendor pallets in their designated spots.",
+      "priority": "High"
+    },
+    {
+      "title": "Manage damages (Grocery / Frozen / Dairy)",
+      "description": "Separate and place damages in correct areas; record notes for shrink.",
+      "priority": "Med"
+    },
+    {
+      "title": "Process paperwork in SAP (DSD & DC)",
+      "description": "Post receipts, handle PODs when prompted, and verify details match paperwork.",
+      "priority": "High"
+    },
+    {
+      "title": "Check Open Goods Receipts report",
+      "description": "Make sure nothing is stuck open from earlier trucks.",
+      "priority": "Med"
+    },
+    {
+      "title": "File invoices",
+      "description": "DSD → Friday folder; DC → DC Received folder.",
+      "priority": "Low"
+    },
+    {
+      "title": "Clear miscellaneous (crates/returns/strays)",
+      "description": "Bottle/milk crates, vendor returns, stray pallets—remove to avoid backlog.",
+      "priority": "Low"
+    }
+  ]
+}

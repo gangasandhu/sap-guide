@@ -6,6 +6,7 @@ import Vendors from "./pages/Vendors.jsx";
 import Orders from "./pages/Orders.jsx";
 import Errors from "./pages/Errors.jsx";
 import Barcodes from "./pages/Barcodes.jsx"; 
+import Tasks from "./pages/Tasks.jsx";
 
 export default function App() {
   return (
@@ -20,6 +21,8 @@ export default function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/errors" element={<Errors />} />
           <Route path="/barcodes" element={<Barcodes />} />
+          <Route path="/tasks" element={<Tasks />} />
+
         </Routes>
       </main>
 
