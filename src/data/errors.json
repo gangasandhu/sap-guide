@@ -1,0 +1,116 @@
+{
+  "errors": [
+    {
+      "id": "doc-locked",
+      "title": "Document locked / In use by another user",
+      "tags": ["SAP", "DSD", "DC"],
+      "symptoms": [
+        "Error appears when trying to post goods receipt",
+        "Can't edit or save the document"
+      ],
+      "causes": [
+        "Another device/session has the document open",
+        "System didn’t finish a previous save"
+      ],
+      "steps": [
+        "Back out to the main menu and save any work.",
+        "On the Zebra, close SAP (Menu → Exit) then reopen.",
+        "Search to see if the doc was already posted (by invoice/delivery).",
+        "Wait 2–5 minutes and try again.",
+        "If it persists, log out on other devices or ask a lead to clear the lock."
+      ],
+      "notes": "Avoid double-posting. Always search first."
+    },
+    {
+      "id": "corrupt-link",
+      "title": "Corrupt link / Shortcut opens wrong menu",
+      "tags": ["Device"],
+      "symptoms": [
+        "Tapping DSD/DC link does nothing or opens a blank screen"
+      ],
+      "causes": [
+        "Outdated shortcut",
+        "Cached/broken session"
+      ],
+      "steps": [
+        "Restart the Zebra (hold power → Restart).",
+        "Open SAP from the apps list (not the old shortcut).",
+        "Navigate to the correct menu and create a fresh shortcut.",
+        "If it returns, report to IT with the device number."
+      ]
+    },
+    {
+      "id": "zebra-freeze",
+      "title": "Zebra handheld frozen / slow",
+      "tags": ["Device"],
+      "symptoms": [
+        "Screen stuck, scans delayed, app not responding"
+      ],
+      "causes": [
+        "Low memory / background apps",
+        "Weak Wi-Fi"
+      ],
+      "steps": [
+        "Close background apps and relaunch SAP.",
+        "Toggle Wi-Fi off/on near the backroom AP.",
+        "Restart the device.",
+        "If frequent, note time/location and escalate."
+      ]
+    },
+    {
+      "id": "dc-yellow",
+      "title": "DC Receiving: items stay yellow after scan",
+      "tags": ["DC", "Receiving"],
+      "symptoms": [
+        "After scanning pallets, some items remain yellow"
+      ],
+      "causes": [
+        "Missed pallet or wrong barcode",
+        "Shortage/damage"
+      ],
+      "steps": [
+        "Press F12 to show pending items.",
+        "Re-scan the pallet label for the yellow item(s).",
+        "Cross-check counts with the Stop Manifest.",
+        "If short/damaged, record it and inform a supervisor.",
+        "Post only what you received; keep paperwork with notes."
+      ]
+    },
+    {
+      "id": "missing-invoice",
+      "title": "Missing invoice at delivery",
+      "tags": ["DSD", "Receiving"],
+      "symptoms": [
+        "Driver arrives without paper invoice"
+      ],
+      "causes": [
+        "Vendor forgot to print / left it in truck"
+      ],
+      "steps": [
+        "Ask the driver to provide a copy or email/fax.",
+        "If unavailable, document delivery details and pallet counts.",
+        "Hold posting until invoice arrives (unless policy allows temp entry).",
+        "File notes with date/time and vendor contact."
+      ],
+      "notes": "Follow local policy for temporary entries and POD."
+    },
+    {
+      "id": "duplicate-invoice",
+      "title": "Invoice already exists / duplicate",
+      "tags": ["DSD", "Receiving"],
+      "symptoms": [
+        "System says invoice number already used"
+      ],
+      "causes": [
+        "Already posted earlier",
+        "Transposed digits"
+      ],
+      "steps": [
+        "Search for an existing doc by invoice/vendor/date.",
+        "If already posted, stop—file paperwork and mark duplicate.",
+        "If not posted, verify digits and re-enter.",
+        "Escalate if still uncertain."
+      ]
+    }
+  ]
+}

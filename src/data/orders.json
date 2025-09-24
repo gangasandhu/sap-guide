@@ -1,0 +1,19 @@
+{
+  "orders": [
+    {
+      "id": "rush-order",
+      "title": "Rush Order (Vendor)",
+      "notes": "Menu: 3 › Order Management › Rush Order. Use for urgent fills outside the normal schedule.",
+      "steps": [
+        "Log into the Zebra device.",
+        "Open: 3. Order Management › Rush Order› AM / Ad Match.",
+        "Enter the requested delivery date (MM/DD/YY).",
+        "Scan product UPCs or enter article/UPC manually.",
+        "Enter quantities for each item.",
+        "Review order lines for accuracy.",
+        "Press F12 to finalize/submit the order."
+      ],
+      "example": "Need 20 cases of Pepsi for next week’s promo: Rush Order → delivery 06/04/25 → scan Pepsi UPC → set qty 20 → F12 to submit."
+    }
+  ]
+}

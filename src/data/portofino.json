@@ -1,0 +1,35 @@
+{
+  "brand": "Portofino",
+  "items": [
+    {
+      "name": "Artisan Sourdough 1×585g",
+      "article": "21566048",
+      "barcode": "21566048",
+      "notes": ""
+    },
+    {
+      "name": "W.C. 5 Grain 1×585g",
+      "article": "21566340",
+      "barcode": "21566340",
+      "notes": ""
+    },
+    {
+      "name": "Seeded Hearth Loaf 1×600g",
+      "article": "21566424",
+      "barcode": "21566424",
+      "notes": ""
+    },
+    {
+      "name": "Artisan Peasant Loaf 1×585g",
+      "article": "21566457",
+      "barcode": "21566457",
+      "notes": ""
+    },
+    {
+      "name": "Roasted Garlic Cracked Pepper 1×585g",
+      "article": "21566557",
+      "barcode": "21566557",
+      "notes": ""
+    }
+  ]
+}

@@ -3,17 +3,9 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Receiving from "./pages/Receiving.jsx";
 import Vendors from "./pages/Vendors.jsx";
-
-// stub pages (you can replace with real ones later)
-function Orders() {
-  return <h2 className="text-xl font-semibold text-blue-600">Orders Page</h2>;
-}
-function Errors() {
-  return <h2 className="text-xl font-semibold text-blue-600">Errors Page</h2>;
-}
-function Barcodes() {
-  return <h2 className="text-xl font-semibold text-blue-600">Barcodes Page</h2>;
-}
+import Orders from "./pages/Orders.jsx";
+import Errors from "./pages/Errors.jsx";
+import Barcodes from "./pages/Barcodes.jsx"; 
 
 export default function App() {
   return (
