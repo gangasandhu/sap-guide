@@ -2,11 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Receiving from "./pages/Receiving.jsx";
+import Vendors from "./pages/Vendors.jsx";
 
 // stub pages (you can replace with real ones later)
-function Vendors() {
-  return <h2 className="text-xl font-semibold text-blue-600">Vendors Page</h2>;
-}
 function Orders() {
   return <h2 className="text-xl font-semibold text-blue-600">Orders Page</h2>;
 }

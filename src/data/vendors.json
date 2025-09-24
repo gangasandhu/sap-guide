@@ -1,0 +1,76 @@
+{
+  "vendors": [
+    {
+      "name": "Pepsi",
+      "numbers": ["1028096"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Coke",
+      "numbers": ["1028422"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Portofino",
+      "numbers": ["1083301"],
+      "procedures": ["SAP Option 2 (Without Ref)"],
+      "notes": "Scan Articles from List"
+    },
+    {
+      "name": "Jacent",
+      "numbers": ["1080678"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": "Find PO number in Store Order Tracking"
+    },
+    {
+      "name": "Red Bull",
+      "numbers": ["1082486"],
+      "procedures": ["SAP Option 2 (Situation Dependent)"],
+      "notes": ""
+    },
+    {
+      "name": "Canada Bread",
+      "numbers": ["1028143"],
+      "procedures": ["SAP Option 2 (Without Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Buns Master",
+      "numbers": ["1700315"],
+      "procedures": ["SAP Option 2 (Without Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Devry",
+      "numbers": ["1035570"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": "Find PO number in Store Order Tracking"
+    },
+    {
+      "name": "Frito Lay",
+      "numbers": ["108665", "(Normal)", "1400186", "(Club)"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Old Dutch",
+      "numbers": ["1035531"],
+      "procedures": ["SAP Option 1 (With Ref)"],
+      "notes": ""
+    },
+    {
+      "name": "Byland Nursery (plants)",
+      "numbers": ["1036051"],
+      "procedures": ["SAP Option 1"],
+      "notes": ""
+    },
+    {
+        "name": "BC LDB (Wine Imports)",
+        "numbers": ["Article lookup to check vendor number"],
+        "procedures": ["SAP Option 1 or 2 (Situation Dependent)"],
+        "notes": ""
+    }
+  ]
+}
