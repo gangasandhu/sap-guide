@@ -8,6 +8,8 @@ export default function Home() {
 
   const cards = [
     { to: "/receiving", title: "Receiving", desc: "DSD & DC workflows, POD checks.", icon: ReceivingIcon },
+    { to: "/damages", title: "Handling Damages", desc: "Processing damages and candy credits in SAP", icon: ErrorsIcon },
+    { to: "/returns", title: "Processing Returns", desc: "Credits are processed for returned items", icon: ErrorsIcon },
     { to: "/vendors", title: "Vendors", desc: "Vendor numbers & rush order flow.", icon: VendorsIcon },
     { to: "/orders", title: "Orders", desc: "Create & manage POs (with/without ref).", icon: OrdersIcon },
     { to: "/errors", title: "Troubleshooting", desc: "Fix common SAP & Zebra issues.", icon: ErrorsIcon },

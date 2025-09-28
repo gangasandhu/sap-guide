@@ -1,0 +1,24 @@
+{
+  "title": "Processing Credits for Vendor Returns",
+  "intro": "Use this flow to create a credit for returned or damaged vendor items. This follows the DSD Returns Without Reference path.",
+  "menuPath": "5. Returns › 2. DSD Returns W/O Ref",
+  "fields": [
+    { "label": "Vendor No.", "help": "From the vendor or the store credit info book." },
+    { "label": "Return PO No.", "help": "Use the vendor invoice number." },
+    { "label": "Article Ref.", "help": "Leave blank." },
+    { "label": "Return PO Date", "help": "Enter today’s date (MM/DD/YY)." },
+    { "label": "R/A No.", "help": "Enter the invoice number again when prompted." }
+  ],
+  "steps": [
+    "Log into the Zebra handheld.",
+    "Open: 5. Returns → 2. DSD Returns W/O Ref.",
+    "Enter the header details: Vendor No., Return PO No. (invoice number), Article Ref. (leave blank), Return PO Date (today).",
+    "Press Enter (or F12) to continue to the product list.",
+    "Press F5 (Create) to open a new PO return if prompted.",
+    "Select reason: QA (Quality Issue).",
+    "In the R/A No. field, enter the invoice number again.",
+    "Scan each UPC (or key it) and enter the quantities being returned.",
+    "Press F12, then choose 2: Save and Release to finalize and print the credit."
+  ],
+  "example": "Example: Pepsi returns — Returns → DSD Returns W/O Ref→ Vendor No. 1028096 → Return PO No. = invoice → date = today → reason = QA → scan all cases → F12 → Save and Release."
+}

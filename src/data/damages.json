@@ -1,0 +1,59 @@
+{
+  "intro": "Damaged or stale products must be recorded in SAP to keep inventory accurate. Follow these steps and stage items in the correct area.",
+  "reasonCodes": [
+    {
+      "code": "DB",
+      "title": "Damaged — divert",
+      "dept": "Grocery / Frozen",
+      "desc": "Crushed packaging, leaking, broken seal, or otherwise unsellable; divert per store process."
+    },
+    {
+      "code": "SB",
+      "title": "Expired / Stale — discard",
+      "dept": "Dairy (and other dated items)",
+      "desc": "Past best-before or stale. Record as scrap and discard per food safety rules."
+    }
+  ],
+  "steps": [
+    "Log into the Zebra handheld.",
+    "Open: 2. Goods Movements → 1. Scrap.",
+    "Scan the damaged/expired product. On the first scan, choose the correct reason code (DB or SB).",
+    "Continue scanning items. Use the same reason code unless it changes.",
+    "Review the list and confirm quantities.",
+    "Press F12 to post the scrap document."
+  ],
+  "placement": [
+    {
+      "title": "Grocery damages",
+      "body": "After scanning, place items in the APS section (blue door near the damages area). Use banana boxes from produce for storing damage products."
+    },
+    {
+      "title": "Important",
+      "body": "Do NOT place frozen or leaking items in the APS area. Follow food-safety and store policy."
+    }
+  ],
+  "candyCredits": {
+    "title": "Candy / Chocolate Credits",
+    "intro": "For candy/chocolate vendors we do not directly scan out a credit. Use an **Unplanned Cycle Count** to adjust on-hand and then provide the vendor the Cycle Count report.",
+    "brands": ["Nestle", "Ferrero", "Mars", "Lindt", "Wrigley"],
+    "handheldMenu": "6. Inventory Count → 2. Unplanned Cycle Count",
+    "steps": [
+      "Use Article Lookup to check current on-hand for the item (call this X).",
+      "Physically sort/count expired or damaged pieces you’re claiming (call this Y).",
+      "On the Zebra open: 6. Inventory Count → 2. Unplanned Cycle Count (name the count \"Credits\" if asked).",
+      "Scan or enter the UPC/Article for each affected product.",
+      "In the EA (each) quantity, enter Z = X − Y (the new on-hand after removing the bad pieces).",
+      "Review the lines and post/save the count."
+    ],
+    "report": {
+      "title": "Give the vendor the report",
+      "path": "Desktop → Store Page → Reports → Operational Reports → Cycle Count",
+      "steps": [
+        "Open the Cycle Count report.",
+        "Select the applicable date (today/when you posted the count).",
+        "View then print or export the sheet and share it with the vendor."
+      ]
+    },
+    "example": "Example: On-hand shows 24 (X). You have 6 expired (Y). In Unplanned Cycle Count, set the EA quantity to 18 (Z) and post. Print the Cycle Count report for the vendor."
+  }
+}

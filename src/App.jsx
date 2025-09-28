@@ -2,11 +2,13 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import Receiving from "./pages/Receiving.jsx";
+import Returns from "./pages/Returns.jsx";
 import Vendors from "./pages/Vendors.jsx";
 import Orders from "./pages/Orders.jsx";
 import Errors from "./pages/Errors.jsx";
 import Barcodes from "./pages/Barcodes.jsx"; 
 import Tasks from "./pages/Tasks.jsx";
+import Damages from "./pages/Damages.jsx";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/receiving" element={<Receiving />} />
+          <Route path="/returns" element={<Returns />} />
+          <Route path="/damages" element={<Damages />} />
           <Route path="/vendors" element={<Vendors />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/errors" element={<Errors />} />
