@@ -33,27 +33,26 @@
     }
   ],
   "candyCredits": {
-    "title": "Candy / Chocolate Credits",
-    "intro": "For candy/chocolate vendors we do not directly scan out a credit. Use an **Unplanned Cycle Count** to adjust on-hand and then provide the vendor the Cycle Count report.",
+    "title": "Candy / Chocolate (Now Scrap as SB)",
+    "intro": "Candy credits are no longer done via cycle counts. Simply SCRAP them using reason code SB, record the document number, box them, and print the scrap report.",
     "brands": ["Nestle", "Ferrero", "Mars", "Lindt", "Wrigley"],
-    "handheldMenu": "6. Inventory Count → 2. Unplanned Cycle Count",
+    "handheldMenu": "2. Goods Movements → 1. Scrap",
     "steps": [
-      "Use Article Lookup to check current on-hand for the item (call this X).",
-      "Physically sort/count expired or damaged pieces you’re claiming (call this Y).",
-      "On the Zebra open: 6. Inventory Count → 2. Unplanned Cycle Count (name the count \"Credits\" if asked).",
-      "Scan or enter the UPC/Article for each affected product.",
-      "In the EA (each) quantity, enter Z = X − Y (the new on-hand after removing the bad pieces).",
-      "Review the lines and post/save the count."
+      "Open: 2. Goods Movements → 1. Scrap on the Zebra.",
+      "Scan each candy/chocolate item and select reason code SB (Expired/Stale — discard).",
+      "Confirm quantities and POST the scrap.",
+      "After submitting, NOTE DOWN the SAP goods movement document number.",
+      "Place the scrapped candy in banana boxes for staging."
     ],
     "report": {
-      "title": "Give the vendor the report",
-      "path": "Desktop → Store Page → Reports → Operational Reports → Cycle Count",
+      "title": "Print the Scrap (Goods Movement) Report",
+      "path": "Desktop → Store Page → Reports → Goods Movement Report",
       "steps": [
-        "Open the Cycle Count report.",
-        "Select the applicable date (today/when you posted the count).",
-        "View then print or export the sheet and share it with the vendor."
+        "Open the Goods Movement Report.",
+        "Search using the SAP document number you noted after posting.",
+        "Open the matching record and print the report for store records/vendor as needed."
       ]
     },
-    "example": "Example: On-hand shows 24 (X). You have 6 expired (Y). In Unplanned Cycle Count, set the EA quantity to 18 (Z) and post. Print the Cycle Count report for the vendor."
+    "example": "You scrap 12 expired chocolate bars as SB and post. The screen shows a document number (e.g., 500123456). Write it down, put items in banana boxes, then go to Store Page → Reports → Goods Movement Report, search 500123456, and print."
   }
 }

@@ -33,8 +33,46 @@
     {
       "id": "pod",
       "title": "Proof of Delivery (POD)",
-      "notes": "How to get POD for any received document.",
-      "steps": []
+      "notes": "If you or the vendor needs a copy of the POD (Proof of Delivery), follow these steps on the desktop after receiving the document:",
+      "steps": [
+        "After receiving the document, go to the **Store Page** on the desktop (after signing in to the SAP Portal).",
+        "Click **Reports** > **Order Management Reports** (on the left side arrow).",
+        "Select **Store Order Tracking**.",
+        "Enter the **PO Number** of the respective document (it always starts with 48...).",
+        "Click **Search**.",
+        "Once the list appears, click the **blue linked number** under the **GR DOCX** section.",
+        "At the top bar, choose **Print Version** and print the POD to the same receiving printer."
+      ]
+    },
+    {
+      "id": "received-check",
+      "title": "Check if Something Is Received or Not",
+      "notes": "Use Store Order Tracking to confirm whether a PO has been received (goods receipt posted).",
+      "steps": [
+        "On desktop, open **Store Page** (SAP Portal) and sign in.",
+        "Go to **Reports** → **Order Management Reports**.",
+        "Click **Store Order Tracking**.",
+        "In the search box, enter the **PO number** (DC POs start with 48...). Optionally set the date range.",
+        "Click **Search**.",
+        "If the PO is received, you will see a **blue linked number under GR DOCX** and a **GR Date**. Click the link to view details.",
+        "If there is **no GR DOCX link** (or it’s blank), the PO is **not yet received**."
+      ],
+      "example": "PO 48XXXXXXXX shows a blue GR DOCX link and GR Date = received; no link = not received. "
+    },
+    {
+      "id": "find-dsd-po",
+      "title": "Find the PO Number for DSD Deliveries (When Not on Invoice)",
+      "notes": "Some vendors, like **Jacent**, are received with reference but don’t list the PO number on the invoice. You can find the correct PO using the vendor number in SAP.",
+      "steps": [
+        "On the **desktop**, open the **Store Page** (SAP Portal) and sign in.",
+        "Go to **Reports** → **Order Management Reports**.",
+        "Click **Store Order Tracking**.",
+        "In the search box, enter the **vendor number** and set the date range for the delivery day.",
+        "Click **Search**.",
+        "In the results, locate the most recent PO with that vendor number — the PO number will start with 48…",
+        "Use that PO number when performing **DSD Receipt (with Reference)** on the Zebra device."
+      ],
+      "example": "Example: The Jacent invoice has no PO number. Open Store Order Tracking → search using Jacent’s vendor number → open the PO details → compare the **quantity** with the quantity listed on the invoice to confirm the correct PO → use that PO in DSD Receipt."
     }
   ]
 }
